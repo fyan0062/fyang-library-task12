@@ -1,0 +1,29 @@
+/* Tag selectors */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Class selectors */
+.form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ID selectors */
+#username:focus,
+#password:focus,
+#isAustralian:focus,
+#reason:focus {
+    border-color: #c63218;
+    /* More obvious border color change (Tomato) */
+    background-color: #868981;
+    /* Light background color change */
+}
+
+/* Attribute selectors */
+select[id="gender"] {
+    background-color: #6f738b;
+    /* Default background color set to gray */
+}
